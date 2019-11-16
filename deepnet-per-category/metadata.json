@@ -1,0 +1,27 @@
+{
+  "name": "Create Per-Category Deepnets",
+  "description":
+  "Generate models for a dataset, simulating a root split on a given field",
+  "kind": "script",
+  "source_code": "script.whizzml",
+  "inputs": [
+    {
+      "name": "source",
+      "type": "source-id",
+      "description": "The data to model"
+    },
+    {
+      "name": "field",
+      "type": "string",
+      "description":
+      "The name or id of the field that should be used to split the dataset"
+    },
+  ],
+  "outputs": [
+    {
+      "name": "models",
+      "type": "list",
+      "description": "A list of the output deepnet models"
+    }
+  ]
+}
