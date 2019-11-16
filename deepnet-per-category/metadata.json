@@ -15,7 +15,7 @@
       "type": "string",
       "description":
       "The name or id of the field that should be used to split the dataset"
-    },
+    }
   ],
   "outputs": [
     {
